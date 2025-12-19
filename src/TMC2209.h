@@ -239,6 +239,9 @@ public:
 
   uint16_t getMicrostepCounter();
 
+  void printSettings();
+  void printStatus();
+
 private:
   HardwareSerial * hardware_serial_ptr_;
 
